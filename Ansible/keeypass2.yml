@@ -1,0 +1,30 @@
+---
+- host: all
+  become: true
+  become_user: root
+  tasks:
+
+   - name: Purge Old keepass2 
+     apt:
+       name: keepass2
+       state: absent
+       purge: yes
+       force: yes 
+
+   - name: Download the repo
+     apt_repository:
+       repo: 'ppa:jtaylor/keepass'
+       state: present
+
+   - name: Install Keepass2
+     apt:
+       name: keepass2
+       state: latest
+
+   - name: Install keepass2-agent
+     apt:
+       name: keepass2-plugin-keeagent
+       state: latest
+
+...
+
