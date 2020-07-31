@@ -1,0 +1,80 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+	.closebtn{
+  background-image:: url('../pendent_store-web/web/images/close_1.png') no-repeat 0px 0px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 0px;
+  top:45px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.checkout_details_area form .form-control {
+    height: 60px;
+    border: none;
+    border-radius: 0;
+    background-color: #f5f7fa;
+    padding: 30px;
+    color: #000;
+    font-size: 14px;
+}
+
+.closebtn{
+		top: 145px;
+}
+
+.main-content-wrapper .header-area {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 320px;
+    flex: 0 0 320px;
+    width: 320px;
+    max-width: 320px;
+    background-color: #fff;
+    padding: 50px 60px;
+        padding-top: 50px;
+        padding-right: 60px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+}
+
+.section-padding-100 {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+.widget  .catagories-menu li a {
+                text-transform: capitalize;
+                font-size: 16px;
+                padding: 5px;
+                display: block;
+                font-weight: 400;
+                color: #959595;
+}
+
+.footer_area {
+    position: relative;
+    z-index: 1;
+    background-color: #252525;
+    padding: 20px 0;
+  }

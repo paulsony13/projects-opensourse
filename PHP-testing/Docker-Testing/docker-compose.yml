@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  webapp:
+    build:
+      context: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./webapp:/usr/local/apache2/htdocs/
+
